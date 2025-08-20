@@ -1,0 +1,48 @@
+.write-blog {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+}
+
+.write-blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.write-blog-form .form-box {
+    margin-bottom: 15px;
+}
+
+.write-blog-form input,
+.write-blog-form textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+.write-blog-form input:focus,
+.write-blog-form textarea:focus {
+    border-color: #007BFF;
+}
+
+.write-blog-form button {
+    background: #007BFF;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.write-blog-form button:hover {
+    background: #0056b3;
+}

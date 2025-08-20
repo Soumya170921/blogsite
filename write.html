@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a Blog - iBlog</title>
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="index.html">
+                <span><img src="img/logo.png" width="94px" alt="iBlog"></span>
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="write.html" class="active">Write</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="max-width-1 m-auto"><hr></div>
+
+    <!-- Write Blog Section -->
+    <div class="write-blog max-width-1 m-auto font1">
+        <h2>Write Your Blog</h2>
+        <form class="write-blog-form">
+            <div class="form-box">
+                <input type="text" placeholder="Blog Title" required>
+            </div>
+            <div class="form-box">
+                <input type="text" placeholder="Author Name" required>
+            </div>
+            <div class="form-box">
+                <textarea placeholder="Write your article here..." rows="10" required></textarea>
+            </div>
+            <div class="form-box">
+                <button type="submit" class="btn">Publish</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Copyright &copy; iBlog.com</p>
+    </div>
+
+    <script>
+    document.querySelector(".write-blog-form").addEventListener("submit", function(e) {
+        e.preventDefault();
+        alert("Your blog has been submitted! (Not really saved yet 😅)");
+    });
+    </script>
+</body>
+</html>
